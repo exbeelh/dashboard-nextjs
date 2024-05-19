@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { lusitana } from '@/app/ui/fonts';
+import { jetbrain_mono } from '@/app/ui/fonts';
 import Search from '@/app/ui/search';
 import {
   CustomersTableType,
@@ -13,7 +13,9 @@ export default async function CustomersTable({
 }) {
   return (
     <div className="w-full">
-      <h1 className={`${lusitana.className} mb-8 text-xl md:text-2xl`}>
+      <h1
+        className={`${jetbrain_mono.className} mb-8 text-xl font-bold md:text-2xl`}
+      >
         Customers
       </h1>
       <Search placeholder="Search customers..." />
