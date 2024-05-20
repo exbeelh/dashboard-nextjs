@@ -14,7 +14,7 @@ export default function RootLayout({
       </div>
       <div className="flex h-full flex-grow flex-col">
         <div className="h-8 flex-none border-spacing-1 bg-white p-6 md:p-12">
-          <div className="mb-5 flex flex-row items-center justify-end leading-none">
+          <div className="mb-5 mr-5 flex flex-row items-center justify-end leading-none">
             <UserCircleIcon className="h-8 w-8" />
             <p>
               Hello, <span className="font-bold">Person</span>
